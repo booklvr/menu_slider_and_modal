@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <title>My Landing Page</title>
+</head>
+<body>
+    <h1>My Landing Page</h1>
+
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>My Landing Page</h1>
+
+        <p>Sunt reprehenderit nisi incididunt nulla ex ad tempor in aliqua irure id esse do aliqua.</p>
+
+        <button class="cta-btn" id="open">Sign Up</button>
+
+    </header>
+
+        <div class="container">
+            <h2>What is this landing page about?</h2>
+            <p>Laboris eiusmod laboris labore minim in reprehenderit irure dolore tempor duis aliqua mollit amet ut proident ut aute. In aliquip do eu consectetur elit laboris qui ut. In id minim consequat dolor sunt sit officia ut officia do nulla excepteur est.</p>
+            <p>Lorem ipsum in dolor do reprehenderit ut qui in duis qui adipisicing pariatur est laborum ea. Lorem ipsum occaecat laborum nisi eiusmod qui sed commodo dolore enim.</p>
+
+            <h2>Tell Me More</h2>
+
+            <p>Cupidatat sed consequat voluptate deserunt sunt tempor cillum amet amet minim fugiat amet et quis. Irure excepteur commodo velit minim tempor magna aute in labore. Laboris commodo ut elit dolore nulla pariatur velit reprehenderit aliquip ullamco dolor sed anim id non occaecat sit elit.</p>
+
+            <h2>Benefits</h2>
+
+            <ul>
+                <li>Lifetime Access</li>
+                <li>30 Day Money Back</li>
+                <li>Tailored Customer Support</li>
+            </ul>
+
+            <p>Sed deserunt proident qui proident enim ex irure sint commodo cupidatat quis dolore mollit irure. Consequat incididunt culpa ea fugiat qui laboris aliquip incididunt magna cupidatat esse laboris ad qui culpa. Et duis laboris incididunt pariatur est aliqua quis in labore sunt eu dolor. Minim qui non esse excepteur ut elit incididunt duis. Lorem ipsum et officia ea ut aliqua est dolor ex ea dolore non ut incididunt veniam velit duis aliquip fugiat. Et culpa deserunt anim dolore nisi pariatur veniam anim.</p>
+        </div>
+
+
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign UP</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with us to get offers, support and more</p>
+                <form action="#" class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input
+                            class="form-input"
+                            type="name"
+                            id="name"
+                            placeholder="Enter name"
+                        />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input
+                            class="form-input"
+                            type="email"
+                            id="email"
+                            placeholder="Enter email"
+                        />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input
+                            class="form-input"
+                            type="password"
+                            id="password"
+                            placeholder="Enter password"
+                        />
+                    </div>
+                    <div>
+                        <label for="password2">Confirm password</label>
+                        <input
+                            class="form-input"
+                            type="password"
+                            id="password2"
+                            placeholder="Confirm password"
+                        />
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
